@@ -1,6 +1,6 @@
 # goodreads
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/icco/goodreads.svg)](https://pkg.go.dev/github.com/icco/goodreads)
+[![Go Reference](https://pkg.go.dev/badge/go.icco.me/goodreads.svg)](https://pkg.go.dev/go.icco.me/goodreads)
 [![Test Go](https://github.com/icco/goodreads/actions/workflows/test.yml/badge.svg)](https://github.com/icco/goodreads/actions/workflows/test.yml)
 
 A Go client for reading a user's public [Goodreads](https://www.goodreads.com) bookshelves.
@@ -8,7 +8,7 @@ A Go client for reading a user's public [Goodreads](https://www.goodreads.com) b
 **Goodreads retired its official API in December 2020 and has issued no new keys since.** Every Go client that wraps that API is dead code today. The per-shelf RSS feed is the only route still open, and it is a good one: no key, no auth, no registration for a public profile, and it carries book id, title, author, ISBN, community average rating, the user's own stars, page count, publication year, shelf names, cover art, and read/added dates.
 
 ```
-go get github.com/icco/goodreads
+go get go.icco.me/goodreads
 ```
 
 ## Usage

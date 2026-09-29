@@ -25,6 +25,6 @@ release:
   mode: replace
   footer: |
     ---
-    Install with `go get github.com/icco/goodreads@{{ .Tag }}`.
+    Install with `go get go.icco.me/goodreads@{{ .Tag }}`.
 
     **Full Changelog**: https://github.com/icco/goodreads/compare/{{ .PreviousTag }}...{{ .Tag }}
